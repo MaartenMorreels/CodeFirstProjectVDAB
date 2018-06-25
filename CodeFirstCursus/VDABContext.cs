@@ -18,6 +18,8 @@ namespace CodeFirstCursus
         {
             modelBuilder.Entity<KlassikaleCursus>().Map(m => m.Requires("Soort").HasValue("K"));
             modelBuilder.Entity<ZelfstudieCursus>().Map(m => m.Requires("Soort").HasValue("Z"));
+
+            //test voor myBranchgit 
         }
     }
 }
